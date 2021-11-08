@@ -1,0 +1,215 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; /*tipografia*/
+    color: #333; /*color*/
+    font-size: 1.2rem; /*mida*/
+    line-height: 1.6em; /*espai entre línies*/
+    margin: 0;
+} 
+
+p {
+    margin-bottom: 1.6em; /*espai entre paràgrafs*/
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto; /*per centrar el contingut*/
+} 
+
+/*capçalera*/
+.capçalera {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0; /*per fixar la capçalera*/
+} 
+
+.capçalera a {
+    color: white;
+    text-decoration: none; /*per treure el subratllat*/
+} 
+
+/*logo*/
+.logo-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    letter-spacing: 5px;
+    font-size: 2em;
+    font-family: Vogue-Regular; /*tipografia descarregada d'internet*/
+    text-transform: uppercase;
+}
+
+/*navegació*/
+.navegacio ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+     .navegacio ul li {
+         display: inline-block; /*per posar els elements en línea d'esquerra a dreta*/
+    }
+         .navegacio ul li a {
+             display: block;
+             padding: 0.5rem 1rem;
+             transition: all 0.4s linear;
+             border-radius: 5px;
+             
+        }
+             .navegacio ul li a:hover {
+                 background:#4a4a4a;
+            }
+
+.contingut_principal {
+    padding-top: 12rem; /*perquè el contingut no pugi i sigui tapat per la capçalera*/
+}
+
+section {
+    padding-top: 100px; /*perquè el contingut no pugi massa quan cliquem a un link*/
+}
+
+/*h1 i h2*/
+h1 {
+    font-size: 2rem; /*mida*/
+    line-height: 1.3em; /*espai entre línies*/
+    color: #fa7b74; /*color*/
+}
+
+h2 {
+    font-size: 2rem; /*mida*/
+    line-height: 1.3em; /*espai entre línies*/
+    color: #fa7b74; /*color*/
+}
+
+/*retoc de les imatges per ordre de dalt a baix*/
+.imatgeResponsive {
+    width: 100%; /*per adaptar les imatges a la mida de la pantalla*/
+    height: auto;
+}
+
+.columna {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.fila::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.modaPunk img{
+    width: 50%;
+}
+
+.modaPunk {
+    text-align: center;
+}
+
+.moda80s {
+    text-align: center;
+}
+
+.moda80s img {
+    width: 80%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columna2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.fila2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.modaGrunge img{
+    float: left;
+    width: 20%;
+    margin-right: 15px;
+}
+
+.modaCasualChic img{
+    float: right;
+    width: 35%;
+    margin-left: 15px;
+}
+
+.reset {
+    clear: both;
+}
+
+.columna3 {
+    float: left;
+    height: 50%;
+    padding: 5px;
+}
+
+.fila3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.moda10s {
+    padding-bottom: 1.6rem;
+}
+
+.moda10s img{
+    float: right;
+    width: 35%;
+    margin-left: 15px;
+}
+
+/*peu*/
+.peu {
+    background: #f2f2f2; 
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /*per centrar el contingut*/
+}
+
+/*mapa web peu*/
+.mapaWeb {
+    margin: auto;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto; /*per centrar el contingut*/
+}
+     .mapaWeb ul {
+        display: inline-flex;
+    }
+
+.links {
+    list-style: none;
+}
+     .links a {
+         text-decoration: none;
+         padding: 0.5rem 1rem;
+         transition: all .25s;
+         color: #333;
+        }
+         .links a:hover {
+             color: #fa7b74;
+            }
