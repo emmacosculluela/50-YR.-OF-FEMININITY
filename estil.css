@@ -72,10 +72,6 @@ p {
     padding-top: 12rem; /*perquè el contingut no pugi i sigui tapat per la capçalera*/
 }
 
-section {
-    padding-top: 100px; /*perquè el contingut no pugi massa quan cliquem a un link*/
-}
-
 /*h1 i h2*/
 h1 {
     font-size: 2rem; /*mida*/
